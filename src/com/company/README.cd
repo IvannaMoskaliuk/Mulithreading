@@ -1,0 +1,63 @@
+/*
+ * @version 24.06.2020
+ * @author Ivanna Moskaliuk KNUTE
+ * Home Task: Multi-threading.
+ *  1. Use the file from the previous task  - logs.txt.
+ *  2. Create a class that manages logs in this file.
+ *  3. Create a method that finds all the ERROR logs
+    for a specific date and write them into a specific file (name = ERROR  + Date  + .log)
+ *  4. In your main class develop a functionality to
+    create 5 such a files for 5 different days. Launch them in consistent way (one after another ).
+ *  5. Repeat the above  task in parallel way. Multi-threading.
+ *  6. Compare the results.
+ */
+ 
+------------------------ OUTPUT -----------------------------
+
+2019-10-09 search is started at - 2020-06-24T22:15:54.450
+TOTAL DURATION of threads: 145 milliseconds
+-------------------------
+2019-09-19 search is started at - 2020-06-24T22:15:54.484
+2019-09-19 search is started at - 2020-06-24T22:15:54.484
+2019-11-11 search is started at - 2020-06-24T22:15:54.490
+2019-12-19 search is started at - 2020-06-24T22:15:54.505
+2020-01-01 search is started at - 2020-06-24T22:15:54.507
+-------------------
+There are 0 ERROR lines. on 2019-09-19
+Execution time: 6257
+2019-10-09 search is started at - 2020-06-24T22:16:00.743
+-------------------
+There are 0 ERROR lines. on 2019-12-19
+Execution time: 6544
+-------------------
+There are 0 ERROR lines. on 2019-10-09
+Execution time: 6744
+-------------------
+There are 1 ERROR lines. on 2020-01-01
+Execution time: 6745
+-------------------
+There are 1 ERROR lines. on 2019-11-11
+Execution time: 6877
+-------------------
+There are 0 ERROR lines. on 2019-09-19
+Execution time: 6950
+-------------------
+There are 0 ERROR lines. on 2019-10-09
+Execution time: 2557
+2019-11-11 search is started at - 2020-06-24T22:16:03.301
+-------------------
+There are 1 ERROR lines. on 2019-11-11
+Execution time: 1770
+2019-12-19 search is started at - 2020-06-24T22:16:05.075
+-------------------
+There are 0 ERROR lines. on 2019-12-19
+Execution time: 1957
+2020-01-01 search is started at - 2020-06-24T22:16:07.033
+-------------------
+There are 1 ERROR lines. on 2020-01-01
+Execution time: 1798
+TOTAL DURATION concequently: 14348 milliseconds
+
+ Multi-Threading have time is best than Consequent
+
+Process finished with exit code 0
